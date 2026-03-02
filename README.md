@@ -14,8 +14,8 @@
 To test the application, use these credentials:
 
 ```
-Email: rojgarsetu.demo@gmail.com
-Password: Demo@2026!
+Email: demo@rojgarsetu.com
+Password: demo@2026
 ```
 
 > **Note:** You can also register a new account to explore all features.
