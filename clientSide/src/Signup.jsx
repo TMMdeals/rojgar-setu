@@ -28,17 +28,19 @@ function Signup() {
                 <form onSubmit={handleSubmit}> {/* added by me */}
                     {/* Name Input */}
                     <div className="mb-3">
-                        <label htmlFor="email">
+                        <label htmlFor="name">
                             <strong>Name</strong>
                         </label>
                         <input
                             type="text"
                             placeholder="Enter Name"
                             autoComplete="off"
-                            name="email"
+                            name="name"
                             className="form-control rounded-0"
-                            onChange={(e) => setName(e.target.value)} 
-                            // added by me
+                            minLength="3"
+                            title="Name must be at least 3 characters"
+                            onChange={(e) => setName(e.target.value)}
+                            required
                         />
                     </div>
 
@@ -55,23 +57,26 @@ function Signup() {
                             className="form-control rounded-0"
                             pattern="^\S+@\S+\.\S+$"
                             title="Please enter a valid email address"
-                            onChange={(e) => setEmail(e.target.value)} 
-                            //done by me
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
                         />
                     </div>
 
                     {/* Password Input */}
                     <div className="mb-3">
-                        <label htmlFor="email">
+                        <label htmlFor="password">
                             <strong>Password</strong>
                         </label>
                         <input
                             type="password"
-                            placeholder="Enter Password"
+                            placeholder="Min 8 chars (letters, numbers, @$!%*#?&)"
                             name="password"
                             className="form-control rounded-0"
-                            onChange={(e) => setPassword(e.target.value)} 
-                            //done by me
+                            minLength="8"
+                            pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                            title="Password must be at least 8 characters with letters, numbers, and special characters (@$!%*#?&)"
+                            onChange={(e) => setPassword(e.target.value)}
+                            required
                         />
                     </div>
 
